@@ -12,6 +12,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    /* padding: 20px; */
    
    
 }
@@ -152,5 +153,97 @@ a {
 
 }
 
+/* Footer mobile styling */
+
+footer {
+    margin-top: 26px;
+    background: #EFEFEF;
+    width: 375px;
+    height: 480px;
+    padding: 42px 12px;
+}
+
+.details {
+    margin-top: 30px;
+}
+
+.details-item {
+    width: 262px;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 14px;
+}
+
+.details-item p {
+    font-size: 16px;
+}
+
+.details-icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 16px;
+}
+
+.newsletter {
+    margin-top: 65px;
+}
+.newsletter p{
+    margin-bottom: 19px;
+}
+
+form {
+    width: 336px;
+    /* height: 40px; */
+    display: flex;
+}
+
+#email {
+    width: 287px;
+    height: 40px;
+    font-family: 'Poppins';
+    padding-left: 14px;
+    margin-bottom: 43px;
+}
+
+.newsletter-btn {
+    width: 49px;
+    height: 40px;
+    border-style: none;
+    background: #D9D9D9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+hr {
+    height: 1px;
+    background: rgba(0, 0, 0, 0.36);
+    margin-bottom: 23px;
+}
+
+.copyright {
+    margin-bottom: 30px;
+}
+
+/* Desktop Styling */
+@media (min-width:900px) {
+    /* Desktop News Styling */
+    .article-container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 33px;
+        justify-items: center;
+        align-items:center
+
+}
+
+.recent-news{
+    width: 1280px;
+    height: 2808px;
+}
+
+/* Desktop footer Styling */
+
+}
 
 
