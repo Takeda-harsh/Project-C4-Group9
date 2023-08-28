@@ -57,5 +57,22 @@
     left: 95px;
     border:solid thin;    
     width: 30px;
-
 }
+
+@media (max-width: 450px) {
+    .grid-container{
+        display: grid;
+        grid-template-columns: repeat(1,1fr); 
+        grid-template-rows: repeat(3,minmax(150px,auto));
+    }
+}
+
+@media (min-width: 540px){
+    .grid-container{
+        display: grid;
+        grid-template-columns: repeat(2,1fr); 
+        grid-template-rows: repeat(3,minmax(150px,auto));
+    }
+}
+
+    
