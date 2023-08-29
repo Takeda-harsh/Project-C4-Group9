@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;400;600&family=Poppins:wght@200;300;400;600&display=swap');
+
 *{
     padding: 0;
     margin: 0;
@@ -31,6 +33,7 @@
     font-size: 20px;
     font-family: Poppins;
     font-weight: 300;
+    font-style: normal;
     line-height: 25px;
     width: 138px;
     height: 56px;
@@ -46,6 +49,7 @@
     font-size: 12px;
     font-family: Dosis;
     font-weight: 500;
+    font-style: normal;
     line-height: 33px;
     word-wrap: break-word;
     text-decoration: underline;
@@ -60,12 +64,15 @@ hr {
     color: black;
 }
 
+
+/*For Tablets*/
 @media (min-width: 650px) {
     .grid-container{
         grid-template-columns: repeat(2,1fr); 
     }
 }
-
+ 
+/*For Laptops*/
 @media (min-width: 900px) {
     .grid-container{
         grid-template-columns: repeat(2,1fr);
@@ -86,7 +93,7 @@ hr {
     }
 
 }
-
+ /*For Laptops*/
 @media (min-width: 2500px) {
     .grid-container{
         grid-template-columns: repeat(2,1fr); 
