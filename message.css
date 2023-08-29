@@ -57,7 +57,7 @@ hr {
     left: 70px;
     font-weight: bold;
     width: 20px;
-    color: green;
+    color: black;
 }
 
 @media (min-width: 650px) {
@@ -107,7 +107,7 @@ hr {
 
     hr {
         top: 265px;
-        left: 250px;
+        left: 230px;
         width: 50px;
     }
 }
