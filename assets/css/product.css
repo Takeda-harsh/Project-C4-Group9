@@ -4,12 +4,18 @@
     box-sizing: border-box;
 }
 
-
-.grid-container {
+@media (min-width: 900px) {
+.products {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.products-grid-container {
     display: grid;
-    grid-template-columns: repeat(1,1fr); 
+    width: 100%;
+    grid-template-columns: repeat(4,1fr); 
     grid-template-rows:repeat(9,minmax(150px,auto)); 
-    gap: 40px;
+    gap: 28px;
     margin:30px;
 }
 
@@ -18,13 +24,72 @@
     display: inline-block; 
 }
 
-.grid-item img {
+.grid-item-a {
+    width: 280px;
+    height: 280px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: url(../images/christopher\ knight\ furniture.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    
+
+}
+.grid-item-b {
+    width: 280px;
+    height: 280px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: url(../images/wheat\ straw\ unbreakable\ cup.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    
+
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 280px;
+    height: 280px;
+    background-color:rgba(52, 48, 48, 0.50);
+    z-index: 50;
+}
+
+
+.product{
+    color: white;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 500;
+    z-index: 100;
+    
+}
+
+.product_name {
+    margin-bottom: 18px;
+}
+
+}
+
+/* .grid-item img {
     width: 95%;
     height: 95%;
     object-fit: cover; 
-}
+} */
 
-   .product {
+   /* .product {
     position: absolute;
     top: 70px;
     left: 30px;
@@ -38,23 +103,14 @@
     word-wrap: break-word;  
     text-align: center;
     z-index: 2;
-}
+} */
 
-.overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 95%;
-    height: 95%;
-    background-color: rgba(0, 0, 0, 0.5);
-    z-index: 1;
-}
 
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600&display=swap');
 
 
-@media (min-width:400px) {
+/* @media (min-width:400px) {
     .product {
         top: 110px;
         left: 80px;
@@ -74,16 +130,16 @@
         font-size: 15px;
         width: 110px;
     }
-}
+} */
 
-@media (min-width:900px) {
+/* @media (min-width:900px) {
     .grid-container {
         grid-template-columns: repeat(4,1fr); 
         grid-template-rows:repeat(2,minmax(150px,auto)); 
     }    
-}
+} */
 
-@media (min-width:2500px) {
+/* @media (min-width:2500px) {
     .grid-container {
         grid-template-columns: repeat(4,1fr); 
         grid-template-rows:repeat(2,minmax(150px,auto)); 
@@ -96,4 +152,4 @@
         line-height: 50px;
     }
 
-}
+} */

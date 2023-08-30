@@ -4,26 +4,76 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: 'Poppins', sans-serif; 
+    width: 100%;
+    }
 
-.grid-container1 {
+.hero {
+    width: 100%;
+}
+
+
+.grid-container {
     display: grid;
     grid-template-columns: repeat(1,1fr); 
-    grid-template-rows:repeat(3,minmax(150px,auto)); 
-    gap: 25px;
-    margin:15px;
+    /* grid-template-rows:repeat(3,minmax(150px,auto));  */
+    gap: 20px; 
+    margin:12px;
 }
 
 .grid-item1 {
-    position: relative;
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 180px;
+    background-image: url(../images/new\ furniture\ collection.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 0px 24px;
 }
 
-.grid-item1 img {
+.grid-item2 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 180px;
+    background-image: url(../images/new\ baskets\ collection.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 0px 24px;
+}
+
+.collection {
+    font-size: 20px;
+    width: 138px;
+    text-align: center;
+}
+
+    
+.shop {
+    margin-right: 18px;
+    font-size: 16px;
+    text-decoration: underline;
+    padding-top: 15px;
+
+}
+
+/* .grid-item1 {
+    position: relative;
+    display: inline-block;
+} */
+
+/* .grid-item1 img {
     width: 100%;
     height: 95%;
     object-fit: cover; 
-}
-.collection {
+} */
+/* .collection {
     position: absolute;
     top: 20px;
     left: 10px;
@@ -36,9 +86,9 @@
     height: 56px;
     word-wrap: break-word; 
     padding: 0.5px; 
-}
+} */
 
-.shop { 
+/* .shop { 
     position: absolute;
     top: 60px;
     left:9px;
@@ -49,45 +99,136 @@
     line-height: 33px;
     word-wrap: break-word;
     text-decoration: underline;
+} */
+/* .collection {
+    padding-left: 24px;
+} */
+.shop_now_link {
+    display: flex;
+    flex-direction: row;
+    /* width: 112px; */
+    /* margin-left: 24px; */
+    justify-content: center;
+    align-items: center;
+    
 }
 
-.shop hr {
+.line {
+    width: 22px;
+}
+
+
+/* .shop hr {
     position: absolute;
     top: 77px;
     left: 70px;
     font-weight: bold;
     width: 20px;
     color: black;
-}
+} */
 
-@media (min-width: 650px) {
+@media screen and (min-width:600px) and (max-width: 899px) {
     .grid-container{
-        grid-template-columns: repeat(2,1fr); 
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        height: 200px ;
+        
     }
+
+    .grid-item1 {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 180px;
+        background-image: url(../images/new\ furniture\ collection.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        align-items: flex-start;
+        justify-content: center;
+        padding: 0px 24px;
+    }
+    .grid-item2 {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 180px;
+        background-image: url(../images/new\ baskets\ collection.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        align-items: flex-start;
+        justify-content: center;
+        padding: 0px 24px;
+    }
+
+    .collection {
+        font-size: 20px;
+        width: 138px;
+        text-align: center;
+    }
+
+    
+.shop {
+    margin-right: 18px;
+    font-size: 16px;
+    text-decoration: underline;
+    padding-top: 15px;
+
+}
 }
 
 @media (min-width: 900px) {
     .grid-container{
+        display: grid;
         grid-template-columns: repeat(2,1fr);
         
     }
 
+    .grid-item1 {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 300px;
+        background-image: url(../images/new\ furniture\ collection.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        align-items: flex-start;
+        justify-content: center;
+        padding: 0px 24px;
+    }
+    .grid-item2 {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 300px;
+        background-image: url(../images/new\ baskets\ collection.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        align-items: flex-start;
+        justify-content: center;
+        padding: 0px 24px;
+    }
+
+    
     .collection {
-        top: 70px;
-        width: 245px;
-    }
+        font-size: 20px;
 
-    .shop {
+    /* .shop {
         top: 90px;
-    }
+    } */
 
-    hr {
+    /* hr {
         top: 105px;
-    }
+    } */
 
 }
 
-@media (min-width: 2500px) {
+.shop {
+    margin-right: 18px;
+    text-decoration: underline;
+
+}
+
+/* @media (min-width: 2500px) {
     .grid-container{
         grid-template-columns: repeat(2,1fr); 
     }
@@ -110,6 +251,6 @@
         left: 230px;
         width: 50px;
     }
-}
+} */
 
-    
+}
