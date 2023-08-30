@@ -5,7 +5,7 @@
     width: 100%;
     display: flex;
     justify-content: space-between;
-    padding: 10px;
+    padding: 37px 34px;
     z-index: 1000;
   }
   .navbar-right {
@@ -41,10 +41,17 @@
     }
   
     .navbar-right i {
-      margin: 20px;
+      /* margin: 20px; */
+      margin-right: 10px;
+    }
+    .nav_style{
+      /* margin: 20px; */
+      margin-right: 10px;
     }
   
     .navbar ul li a {
-      font-size: larger;
+      font-size: 20px;
+      font-weight: 500;
+      font-family: 'Poppins';
     }
   }

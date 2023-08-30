@@ -5,15 +5,18 @@
     background-image: url("../images/Hero_img.png");
     background-position: center;
     background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
   
   .description {
     width: 90%;
-    position: absolute;
+    /* position: absolute; */
     top: 315px;
     left: 22px;
     padding: 1.5rem;
-    background-color: rgba(255, 255, 255, 0.76);
+    background-color: rgba(255, 255, 255, 0.83);
     height: 20%;
   }
   
@@ -60,7 +63,8 @@
       
   
     .description {
-      height: 300px;
+      width: 521px;
+      height: 204px;
      
       top: 450px;
       left: 316px;
@@ -70,19 +74,21 @@
   
     .description a {
      
-      font-size: 32px;
+      font-size: 20px;
       cursor: pointer;
-      font-weight: 300;
+      font-weight: 500;
     }
   
     .description h4 {
       
-      font-size: 48px;
+      font-size: 30px;
       height: 60px;
      
       line-height: 1.2;
+      margin-top: 40px;
+      padding-bottom: 0;
       
-      margin-bottom: 5rem;
+      margin-bottom: 0;
     }
   }
   
