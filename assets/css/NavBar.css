@@ -5,11 +5,14 @@
     width: 100%;
     display: flex;
     justify-content: space-between;
-    padding: 37px 34px;
+   
+    padding: 10px 15px;
     z-index: 1000;
+    
   }
   .navbar-right {
     color: white;
+    margin: 5px;
   }
   .navbar ul li {
     display: none;
@@ -41,17 +44,11 @@
     }
   
     .navbar-right i {
-      /* margin: 20px; */
-      margin-right: 10px;
-    }
-    .nav_style{
-      /* margin: 20px; */
-      margin-right: 10px;
+      margin: 20px;
     }
   
     .navbar ul li a {
-      font-size: 20px;
-      font-weight: 500;
-      font-family: 'Poppins';
+      font-size: larger;
     }
   }
+
