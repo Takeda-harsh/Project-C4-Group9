@@ -4,34 +4,12 @@
     box-sizing: border-box;
 }
 
-@media (min-width: 900px) {
-.products {
-    width: 100%;
-    height: auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin-left: 37px;
-    margin-top: 50px;
-    margin-bottom: 50px;
-}
 
-.products h1 {
-    margin-bottom: 50px;
-    font-size: 30px;
-    font-weight: 300;
-    text-align: center;
-}
-.products-grid-container {
+.grid-container {
     display: grid;
-    width: 100%;
-    grid-template-columns: repeat(4,1fr); 
-    /* grid-template-rows:repeat(9,minmax(150px,auto));  */
-    gap: 28px;
-    align-items: center;
-    justify-content: center;
-    /* margin:30px; */
+    grid-template-columns: repeat(1,1fr); 
+   margin:10px;
+   
 }
 
 .grid-item{
@@ -39,538 +17,30 @@
     display: inline-block; 
 }
 
-.grid-item-a {
-    width: 280px;
-    height: 280px;
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    background: url(../images/christopher\ knight\ furniture.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    text-align: center;
-    
-
-}
-.grid-item-b {
-    width: 280px;
-    height: 280px;
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    background: url(../images/wheat\ straw\ unbreakable\ cup.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    text-align: center;
-    
-
-}
-.grid-item-c {
-    width: 280px;
-    height: 280px;
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    background: url(../images/adidas\ classic\ bag.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    text-align: center;
-    
-
-}
-.grid-item-d {
-    width: 280px;
-    height: 280px;
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    background: url(../images/desk\ pencil-pencil\ holder.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    text-align: center;
-    
-
-}
-.grid-item-e {
-    width: 280px;
-    height: 280px;
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    background: url(../images/ripple\ creak\ key\ holder.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    text-align: center;
-    
-
-}
-.grid-item-f {
-    width: 280px;
-    height: 280px;
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    background: url(../images/economical\ cotton\ canvas.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    text-align: center;
-    
-
-}
-.grid-item-g {
-    width: 280px;
-    height: 280px;
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    background: url(../images/michael\ kors\ original.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    text-align: center;
-    
-
-}
-.grid-item-h {
-    width: 280px;
-    height: 280px;
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    background: url(../images/bostanten\ women\ leather.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    text-align: center;
-    
-
-}
-
-.overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 280px;
-    height: 280px;
-    background-color:rgba(52, 48, 48, 0.50);
-    z-index: 50;
-}
-
-
-.product{
-    color: white;
-    font-size: 16px;
-    line-height: 20px;
-    font-weight: 500;
-    z-index: 100;
-    
-}
-
-.product_name {
-    margin-bottom: 18px;
-}
-
-}
-
-/* Tablet styling */
-
-@media screen and (min-width:600px) and (max-width: 899px) {
-    .products-grid-container {
-        display: grid;
-        width: 100%;
-        grid-template-columns: repeat(3,1fr); 
-        /* grid-template-rows:repeat(9,minmax(150px,auto));  */
-        gap: 17px;
-        align-items: center;
-        justify-content: center;
-        /* margin:30px; */
-        padding-left: 20px;
-    }
-
-    .best-products{
-        text-align: center;
-        font-size: 30px;
-        font-weight: 300;
-        margin-bottom: 30px;
-    }
-
-    .overlay {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 220px;
-        height: 220px;
-        background-color:rgba(52, 48, 48, 0.50);
-        z-index: 50;
-    }
-    
-    
-    .product{
-        color: white;
-        font-size: 16px;
-        line-height: 20px;
-        font-weight: 500;
-        z-index: 100;
-        
-    }
-    
-    .product_name {
-        margin-bottom: 18px;
-    }
-
-    .grid-item{
-        position: relative; 
-        display: inline-block; 
-    }
-    
-    .grid-item-a {
-        width: 220px;
-        height: 220px;
-        position: relative;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
-        background: url(../images/christopher\ knight\ furniture.png);
-        background-repeat: no-repeat;
-        background-size: cover;
-        text-align: center;
-        
-    
-    }
-    .grid-item-b {
-        width: 220px;
-        height: 220px;
-        position: relative;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
-        background: url(../images/wheat\ straw\ unbreakable\ cup.png);
-        background-repeat: no-repeat;
-        background-size: cover;
-        text-align: center;
-        
-    
-    }
-    .grid-item-c {
-        width: 220px;
-        height: 220px;
-        position: relative;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
-        background: url(../images/adidas\ classic\ bag.png);
-        background-repeat: no-repeat;
-        background-size: cover;
-        text-align: center;
-        
-    
-    }
-    .grid-item-d {
-        width: 220px;
-        height: 220px;
-        position: relative;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
-        background: url(../images/desk\ pencil-pencil\ holder.png);
-        background-repeat: no-repeat;
-        background-size: cover;
-        text-align: center;
-        
-    
-    }
-    .grid-item-e {
-        width: 220px;
-        height: 220px;
-        position: relative;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
-        background: url(../images/ripple\ creak\ key\ holder.png);
-        background-repeat: no-repeat;
-        background-size: cover;
-        text-align: center;
-        
-    
-    }
-    .grid-item-f {
-        width: 220px;
-        height: 220px;
-        position: relative;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
-        background: url(../images/economical\ cotton\ canvas.png);
-        background-repeat: no-repeat;
-        background-size: cover;
-        text-align: center;
-        
-    
-    }
-    .grid-item-g {
-        width: 220px;
-        height: 220px;
-        position: relative;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
-        background: url(../images/michael\ kors\ original.png);
-        background-repeat: no-repeat;
-        background-size: cover;
-        text-align: center;
-        
-    
-    }
-    .grid-item-h {
-        width: 220px;
-        height: 220px;
-        position: relative;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
-        background: url(../images/bostanten\ women\ leather.png);
-        background-repeat: no-repeat;
-        background-size: cover;
-        text-align: center;
-        
-    
-    }
-    
-    
-    
-}
-
-@media only screen and (max-width :599px) {
-    .products-grid-container {
-        display: grid;
-        width: 100%;
-        grid-template-columns: repeat(1,1fr); 
-        /* grid-template-rows:repeat(9,minmax(150px,auto));  */
-        gap: 17px;
-        align-items: center;
-        justify-content: center;
-        /* margin:30px; */
-        padding-left: 12px;
-    }
-
-    .best-products{
-        text-align: center;
-        font-size: 30px;
-        font-weight: 300;
-        margin-bottom: 30px;
-    }
-
-    .overlay {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 350px;
-        height: 350px;
-        background-color:rgba(52, 48, 48, 0.50);
-        z-index: 50;
-    }
-    
-    
-    .product{
-        color: white;
-        font-size: 16px;
-        line-height: 20px;
-        font-weight: 500;
-        z-index: 100;
-        
-    }
-    
-    .product_name {
-        margin-bottom: 18px;
-    }
-
-    .grid-item{
-        position: relative; 
-        display: inline-block; 
-    }
-    
-    .grid-item-a {
-        width: 350px;
-        height: 350px;
-        position: relative;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
-        background: url(../images/christopher\ knight\ furniture.png);
-        background-repeat: no-repeat;
-        background-size: cover;
-        text-align: center;
-        
-    
-    }
-    .grid-item-b {
-        width: 350px;
-        height: 350px;
-        position: relative;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
-        background: url(../images/wheat\ straw\ unbreakable\ cup.png);
-        background-repeat: no-repeat;
-        background-size: cover;
-        text-align: center;
-        
-    
-    }
-    .grid-item-c {
-        width: 350px;
-        height: 350px;
-        position: relative;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
-        background: url(../images/adidas\ classic\ bag.png);
-        background-repeat: no-repeat;
-        background-size: cover;
-        text-align: center;
-        
-    
-    }
-    .grid-item-d {
-        width: 350px;
-        height: 350px;
-        position: relative;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
-        background: url(../images/desk\ pencil-pencil\ holder.png);
-        background-repeat: no-repeat;
-        background-size: cover;
-        text-align: center;
-        
-    
-    }
-    .grid-item-e {
-        width: 350px;
-        height: 350px;
-        position: relative;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
-        background: url(../images/ripple\ creak\ key\ holder.png);
-        background-repeat: no-repeat;
-        background-size: cover;
-        text-align: center;
-        
-    
-    }
-    .grid-item-f {
-        width: 350px;
-        height: 350px;
-        position: relative;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
-        background: url(../images/economical\ cotton\ canvas.png);
-        background-repeat: no-repeat;
-        background-size: cover;
-        text-align: center;
-        
-    
-    }
-    .grid-item-g {
-        width: 350px;
-        height: 350px;
-        position: relative;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
-        background: url(../images/michael\ kors\ original.png);
-        background-repeat: no-repeat;
-        background-size: cover;
-        text-align: center;
-        
-    
-    }
-    .grid-item-h {
-        width: 350px;
-        height: 350px;
-        position: relative;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
-        background: url(../images/bostanten\ women\ leather.png);
-        background-repeat: no-repeat;
-        background-size: cover;
-        text-align: center;
-        
-    
-    }
-}
-
-/* Mobile Styling */
-
-
-
-/* .grid-item img {
-    width: 95%;
+.grid-item img {
+    width: 100%;
     height: 95%;
     object-fit: cover; 
-} */
+  
+}
 
-   /* .product {
+.prod-h2 {
+    width:202px;
+    height: 26px;
+    display: flex;
+    justify-content: center;
+    font-weight: 300;
+    margin: 1rem auto;
+    font-size: 30px;
+    line-height: 25px;
+    padding-block: 1rem;
+}
+
+
+   .product {
     position: absolute;
-    top: 70px;
-    left: 30px;
+    top: 90px;
+    left: 80px;
     color: white;
     font-size: 18px;
     font-weight: 500;
@@ -581,53 +51,124 @@
     word-wrap: break-word;  
     text-align: center;
     z-index: 2;
-} */
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 95%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
 
 
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600&display=swap');
 
 
-/* @media (min-width:400px) {
+@media screen and (min-width:400px) and (max-width:649px) {
     .product {
         top: 110px;
-        left: 80px;
+        left: 100px;
     }
 
 }
 
-@media (min-width:650px) {
+/* Media Query for Tablets*/
+@media screen and (min-width:650px) and (max-width:899px) {
     .grid-container {
         grid-template-columns: repeat(3,1fr); 
-        grid-template-rows:repeat(4,minmax(150px,auto)); 
+       
     }    
 
     .product{
         top:50px;
-        left:45px;
-        font-size: 15px;
+      font-size: 15px;
         width: 110px;
     }
-} */
 
-/* @media (min-width:900px) {
+    .grid-item img{
+        width: 95%;
+     
+      
+    }
+
+    .overlay {
+        width:95%;
+    }
+}
+
+/* Media Query for Laptops*/
+@media screen and (min-width:900px) and (max-width:2499px) {
     .grid-container {
         grid-template-columns: repeat(4,1fr); 
-        grid-template-rows:repeat(2,minmax(150px,auto)); 
-    }    
-} */
+         
+    }  
+    
+    .cat-line {
+        width: 22px;
+        height: 1px;
+        background-color: black;
+        position: absolute;
+        top: 200px;
+        left: 70px;
+    }
 
-/* @media (min-width:2500px) {
+    .product{
+        top:50px;
+        left:45px;
+        font-size: 16px;
+        width: 130px;
+    
+        margin:2rem;
+       
+    }
+
+    .grid-item img{
+        width: 95%;
+     
+      
+    }
+
+    .overlay {
+        width:95%;
+    }
+}
+
+/* Media Query for Larger Screens*/
+@media (min-width:2500px) {
     .grid-container {
+        display: grid;
         grid-template-columns: repeat(4,1fr); 
-        grid-template-rows:repeat(2,minmax(150px,auto)); 
-    }    
+       
+    }   
+    
+    .prod-h2 {
+        width:400px;
+        font-size: 48px;
+            line-height: 25px;
+            padding-block: 2rem;
+          
+
+    }
     .product{
         top:195px;
         left:140px;
-        font-size: 40px;
+        font-size: 30px;
         width: 400px;
         line-height: 50px;
     }
 
-} */
+    .grid-item img {
+        width: 95%;
+        height: 95%;
+        object-fit: cover; 
+    }
+
+    .overlay {
+        width:95%;
+    }
+
+
+}
