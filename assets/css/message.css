@@ -13,6 +13,10 @@ body {
     width: 100%;
 }
 
+.message {
+    margin-top: 50px;
+}
+
 
 .grid-container {
     display: grid;

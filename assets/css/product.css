@@ -7,16 +7,31 @@
 @media (min-width: 900px) {
 .products {
     width: 100%;
+    height: auto;
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 37px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.products h1 {
+    margin-bottom: 50px;
+    font-size: 30px;
+    font-weight: 300;
+    text-align: center;
 }
 .products-grid-container {
     display: grid;
     width: 100%;
     grid-template-columns: repeat(4,1fr); 
-    grid-template-rows:repeat(9,minmax(150px,auto)); 
+    /* grid-template-rows:repeat(9,minmax(150px,auto));  */
     gap: 28px;
-    margin:30px;
+    align-items: center;
+    justify-content: center;
+    /* margin:30px; */
 }
 
 .grid-item{
@@ -56,6 +71,102 @@
     
 
 }
+.grid-item-c {
+    width: 280px;
+    height: 280px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: url(../images/adidas\ classic\ bag.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    
+
+}
+.grid-item-d {
+    width: 280px;
+    height: 280px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: url(../images/desk\ pencil-pencil\ holder.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    
+
+}
+.grid-item-e {
+    width: 280px;
+    height: 280px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: url(../images/ripple\ creak\ key\ holder.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    
+
+}
+.grid-item-f {
+    width: 280px;
+    height: 280px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: url(../images/economical\ cotton\ canvas.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    
+
+}
+.grid-item-g {
+    width: 280px;
+    height: 280px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: url(../images/michael\ kors\ original.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    
+
+}
+.grid-item-h {
+    width: 280px;
+    height: 280px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: url(../images/bostanten\ women\ leather.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    
+
+}
 
 .overlay {
     position: absolute;
@@ -82,6 +193,373 @@
 }
 
 }
+
+/* Tablet styling */
+
+@media screen and (min-width:600px) and (max-width: 899px) {
+    .products-grid-container {
+        display: grid;
+        width: 100%;
+        grid-template-columns: repeat(3,1fr); 
+        /* grid-template-rows:repeat(9,minmax(150px,auto));  */
+        gap: 17px;
+        align-items: center;
+        justify-content: center;
+        /* margin:30px; */
+        padding-left: 20px;
+    }
+
+    .best-products{
+        text-align: center;
+        font-size: 30px;
+        font-weight: 300;
+        margin-bottom: 30px;
+    }
+
+    .overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 220px;
+        height: 220px;
+        background-color:rgba(52, 48, 48, 0.50);
+        z-index: 50;
+    }
+    
+    
+    .product{
+        color: white;
+        font-size: 16px;
+        line-height: 20px;
+        font-weight: 500;
+        z-index: 100;
+        
+    }
+    
+    .product_name {
+        margin-bottom: 18px;
+    }
+
+    .grid-item{
+        position: relative; 
+        display: inline-block; 
+    }
+    
+    .grid-item-a {
+        width: 220px;
+        height: 220px;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        background: url(../images/christopher\ knight\ furniture.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        text-align: center;
+        
+    
+    }
+    .grid-item-b {
+        width: 220px;
+        height: 220px;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        background: url(../images/wheat\ straw\ unbreakable\ cup.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        text-align: center;
+        
+    
+    }
+    .grid-item-c {
+        width: 220px;
+        height: 220px;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        background: url(../images/adidas\ classic\ bag.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        text-align: center;
+        
+    
+    }
+    .grid-item-d {
+        width: 220px;
+        height: 220px;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        background: url(../images/desk\ pencil-pencil\ holder.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        text-align: center;
+        
+    
+    }
+    .grid-item-e {
+        width: 220px;
+        height: 220px;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        background: url(../images/ripple\ creak\ key\ holder.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        text-align: center;
+        
+    
+    }
+    .grid-item-f {
+        width: 220px;
+        height: 220px;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        background: url(../images/economical\ cotton\ canvas.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        text-align: center;
+        
+    
+    }
+    .grid-item-g {
+        width: 220px;
+        height: 220px;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        background: url(../images/michael\ kors\ original.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        text-align: center;
+        
+    
+    }
+    .grid-item-h {
+        width: 220px;
+        height: 220px;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        background: url(../images/bostanten\ women\ leather.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        text-align: center;
+        
+    
+    }
+    
+    
+    
+}
+
+@media only screen and (max-width :599px) {
+    .products-grid-container {
+        display: grid;
+        width: 100%;
+        grid-template-columns: repeat(1,1fr); 
+        /* grid-template-rows:repeat(9,minmax(150px,auto));  */
+        gap: 17px;
+        align-items: center;
+        justify-content: center;
+        /* margin:30px; */
+        padding-left: 12px;
+    }
+
+    .best-products{
+        text-align: center;
+        font-size: 30px;
+        font-weight: 300;
+        margin-bottom: 30px;
+    }
+
+    .overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 350px;
+        height: 350px;
+        background-color:rgba(52, 48, 48, 0.50);
+        z-index: 50;
+    }
+    
+    
+    .product{
+        color: white;
+        font-size: 16px;
+        line-height: 20px;
+        font-weight: 500;
+        z-index: 100;
+        
+    }
+    
+    .product_name {
+        margin-bottom: 18px;
+    }
+
+    .grid-item{
+        position: relative; 
+        display: inline-block; 
+    }
+    
+    .grid-item-a {
+        width: 350px;
+        height: 350px;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        background: url(../images/christopher\ knight\ furniture.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        text-align: center;
+        
+    
+    }
+    .grid-item-b {
+        width: 350px;
+        height: 350px;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        background: url(../images/wheat\ straw\ unbreakable\ cup.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        text-align: center;
+        
+    
+    }
+    .grid-item-c {
+        width: 350px;
+        height: 350px;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        background: url(../images/adidas\ classic\ bag.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        text-align: center;
+        
+    
+    }
+    .grid-item-d {
+        width: 350px;
+        height: 350px;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        background: url(../images/desk\ pencil-pencil\ holder.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        text-align: center;
+        
+    
+    }
+    .grid-item-e {
+        width: 350px;
+        height: 350px;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        background: url(../images/ripple\ creak\ key\ holder.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        text-align: center;
+        
+    
+    }
+    .grid-item-f {
+        width: 350px;
+        height: 350px;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        background: url(../images/economical\ cotton\ canvas.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        text-align: center;
+        
+    
+    }
+    .grid-item-g {
+        width: 350px;
+        height: 350px;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        background: url(../images/michael\ kors\ original.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        text-align: center;
+        
+    
+    }
+    .grid-item-h {
+        width: 350px;
+        height: 350px;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        background: url(../images/bostanten\ women\ leather.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        text-align: center;
+        
+    
+    }
+}
+
+/* Mobile Styling */
+
+
 
 /* .grid-item img {
     width: 95%;
