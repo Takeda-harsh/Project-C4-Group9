@@ -11,15 +11,10 @@
 
 body {
   font-family: "Poppins", "Dosis", sans-serif;
-  width: 100%;
+  
+  
 
 }
-
-main {
-  width: 100%;
-}
-
-
 
 a {
   color: inherit;
@@ -30,4 +25,5 @@ ul li {
   text-decoration: none;
   list-style: none;
 }
+
 
