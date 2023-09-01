@@ -99,7 +99,7 @@
     }
 }
 
-/* Media Query for Laptops*/
+/* Media Query for Laptops and desktops*/
 @media screen and (min-width:900px) and (max-width:2499px) {
     .grid-container {
         grid-template-columns: repeat(4,1fr); 
@@ -125,6 +125,20 @@
        
     }
 
+    .prod-h2 {
+       
+            margin-bottom: 50px;
+          
+
+    }
+
+    /* .grid-item{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    } */
+
     .grid-item img{
         width: 95%;
      
@@ -149,6 +163,7 @@
         font-size: 48px;
             line-height: 25px;
             padding-block: 2rem;
+            margin-bottom: 30px;
           
 
     }
