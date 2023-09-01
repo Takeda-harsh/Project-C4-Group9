@@ -485,11 +485,17 @@ body {
         
         .container-footer{
         display: flex;
+        flex-direction: column;
         justify-content: space-between;
+        }
+
+        .details {
+            width: 50% !important;
         }
         
         .newsletter {
         margin-top: 0px;
+        width: 50% !important;
         }
         
         .newsletter p{
