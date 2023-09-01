@@ -5,6 +5,7 @@ body {
     
     .recent-news{
     margin-bottom: 50px;
+    border: 2px solid red;
     }
     
     .recent-news h2 {
