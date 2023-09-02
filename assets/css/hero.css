@@ -11,6 +11,10 @@
   border: 2px solid red;
 }
 
+.header_hero {
+  width: 100%;
+}
+
 .description {
   width: 90%;
   /* position: absolute; */
