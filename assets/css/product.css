@@ -102,7 +102,7 @@
 }
 
 /* Media Query for Laptops and desktops*/
-@media screen and (min-width:900px) and (max-width:1420px) {
+@media screen and (min-width:900px) and (max-width:1440px) {
     .grid-container {
         grid-template-columns: repeat(4,1fr); 
          
@@ -119,7 +119,7 @@
 
     .product{
         top:45px;
-        left:38px;
+        left:30px;
         font-size: 16px;
         width: 130px;
     
@@ -153,13 +153,95 @@
 }
 
 /* Media Query for Larger Screens*/
-@media screen and (min-width:1430px) and (max-width:2500px) {
+@media (min-width:1441px) {
+    /* main {
+        font-family: "Poppins", "Dosis", sans-serif;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
+      
+      } */
+
+    .products {
+        width: 1280px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
+    }
+
     .grid-container {
+        width: 100%;
         display: grid;
         grid-template-columns: repeat(4,1fr); 
        
     }   
     
+    .prod-h2 {
+        width:400px;
+        font-size: 48px;
+            line-height: 25px;
+            padding-block: 2rem;
+            margin-bottom: 30px;
+          
+
+    }
+    
+    .product{
+        top:75px;
+        left:68px;
+        font-size: 16px;
+        width: 130px;
+    
+        margin:2rem;
+       
+    }
+    .grid-item img {
+        width: 95%;
+        height: 95%;
+        object-fit: cover; 
+    }
+   
+
+    .overlay {
+        width:95%;
+    }
+
+
+}
+
+
+
+/* @media  screen and (min-width:2510px)  {
+    .prod-h2 {
+        width:400px;
+        font-size: 48px;
+            line-height: 25px;
+            padding-block: 2rem;
+            margin-bottom: 30px;
+          
+
+    }
+    
+    .product{
+        top:130px;
+        left:148px;
+        font-size: 30px;
+        width: 240px;
+        line-height: 1.4;
+    
+        margin:2rem;
+       
+    }
+    .grid-item img {
+        width: 95%;
+        height: 95%;
+        object-fit: cover; 
+    }
+
     .prod-h2 {
         width:400px;
         font-size: 48px;
@@ -190,54 +272,7 @@
     }
 
 
-}
-
-
-
-@media screen and (min-width:2510px)  {
-    .prod-h2 {
-        width:400px;
-        font-size: 48px;
-            line-height: 25px;
-            padding-block: 2rem;
-            margin-bottom: 30px;
-          
-
-    }
-    
-    .product{
-        top:150px;
-        left:148px;
-        font-size: 20px;
-        width: 240px;
-        line-height: 1.4;
-        margin:2rem;
-       
-    }
-    .grid-item img {
-        width: 95%;
-        height: 95%;
-        object-fit: cover; 
-    }
-
-    .prod-h2 {
-        width:400px;
-        font-size: 48px;
-            line-height: 25px;
-            padding-block: 2rem;
-            margin-bottom: 30px;
-          
-
-    }
-    
-   
-
-    .overlay {
-        width:95%;
-    }
-
-
     
 
     
-}
+} */
