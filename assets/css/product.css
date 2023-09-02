@@ -9,7 +9,7 @@
     display: grid;
     grid-template-columns: repeat(1,1fr); 
    margin:10px;
-   border: 2px solid red;
+   
    
 }
 
@@ -154,15 +154,7 @@
 
 /* Media Query for Larger Screens*/
 @media (min-width:1441px) {
-    /* main {
-        font-family: "Poppins", "Dosis", sans-serif;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        
-      
-      } */
+ 
 
     .products {
         width: 1280px;
@@ -192,7 +184,7 @@
     
     .product{
         top:75px;
-        left:68px;
+        left:60px;
         font-size: 16px;
         width: 130px;
     
@@ -214,65 +206,3 @@
 }
 
 
-
-/* @media  screen and (min-width:2510px)  {
-    .prod-h2 {
-        width:400px;
-        font-size: 48px;
-            line-height: 25px;
-            padding-block: 2rem;
-            margin-bottom: 30px;
-          
-
-    }
-    
-    .product{
-        top:130px;
-        left:148px;
-        font-size: 30px;
-        width: 240px;
-        line-height: 1.4;
-    
-        margin:2rem;
-       
-    }
-    .grid-item img {
-        width: 95%;
-        height: 95%;
-        object-fit: cover; 
-    }
-
-    .prod-h2 {
-        width:400px;
-        font-size: 48px;
-            line-height: 25px;
-            padding-block: 2rem;
-            margin-bottom: 30px;
-          
-
-    }
-    
-    .product{
-        top:75px;
-        left:68px;
-        font-size: 16px;
-        width: 130px;
-    
-        margin:2rem;
-       
-    }
-    .grid-item img {
-        width: 95%;
-        height: 95%;
-        object-fit: cover; 
-    }
-
-    .overlay {
-        width:95%;
-    }
-
-
-    
-
-    
-} */
