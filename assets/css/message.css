@@ -106,34 +106,62 @@
 
 }
 
-@media (min-width: 2500px) {
-    .grid-container{
-        grid-template-columns: repeat(4,1fr); 
+@media (min-width: 1441px) {
+    /* body {
+        font-family: "Poppins", "Dosis", sans-serif;
+        display: flex;
+        flex-direction: column;
+        
+      
+      } */
+    
+    main {
+        font-family: "Poppins", "Dosis", sans-serif;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
+      
+      }
+    
+    .message {
+        width: 1280px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
     }
+    .grid-container1{
+        grid-template-columns: repeat(2,1fr);
+        
+       
+       
+        
+    }
+    
 
     .collection {
-        top: 200px;
-        left: 70px;
-        width: 900px;
-        font-size: 30px;
+        top: 70px;
+        width: 245px;
+        font-size: 20px;
     }
 
     .shop {
-        top: 250px;
-        left: 60px;
+        top: 130px;
         font-size: 18px;
+        
     }
 
     .cat-line {
-        top: 270px;
-        width: 50px;
+        top: 145px;
+        width: 40px;
         height: 1px;
         background-color: black;
         position: absolute;
         
-        left: 150px;
+        left: 95px;
     }
-
   
 }
     
